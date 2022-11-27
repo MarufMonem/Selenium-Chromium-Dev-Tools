@@ -29,6 +29,8 @@ public class geoLocation {
 //        String title =driver.findElement(By.className("our-story-card-title")).getText();
 //        System.out.println(title);
 
+        //netflix doesnt work this case
+
         driver.get("https://my-location.org/");
         System.out.println(driver.findElement(By.id("address")).getText());
 

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8765ae5b-c337-4e10-8e41-2c8c556a8480" name="Changes" comment="Mobile emulation using executeCdpMethod">
-      <change afterPath="$PROJECT_DIR$/src/test/java/geoLocation.java" afterDir="false" />
+    <list default="true" id="8765ae5b-c337-4e10-8e41-2c8c556a8480" name="Changes" comment="Changing the geo location">
+      <change afterPath="$PROJECT_DIR$/src/test/java/NetworkLogsActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/geoLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/geoLocation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669520665773</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changing the geo location">
+      <created>1669522924711</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669522924711</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,6 +95,7 @@
     <MESSAGE value="Project created to test CDP tools" />
     <MESSAGE value="Testing a webpage on mobile view (600*1000)" />
     <MESSAGE value="Mobile emulation using executeCdpMethod" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mobile emulation using executeCdpMethod" />
+    <MESSAGE value="Changing the geo location" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing the geo location" />
   </component>
 </project>
