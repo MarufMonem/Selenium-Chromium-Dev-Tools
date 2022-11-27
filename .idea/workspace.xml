@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8765ae5b-c337-4e10-8e41-2c8c556a8480" name="Changes" comment="Testing a webpage on mobile view (600*1000)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CdpCommandsTest.java" afterDir="false" />
+    <list default="true" id="8765ae5b-c337-4e10-8e41-2c8c556a8480" name="Changes" comment="Mobile emulation using executeCdpMethod">
+      <change afterPath="$PROJECT_DIR$/src/test/java/geoLocation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669273921974</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Mobile emulation using executeCdpMethod">
+      <created>1669520665773</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669520665773</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,6 +86,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project created to test CDP tools" />
     <MESSAGE value="Testing a webpage on mobile view (600*1000)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing a webpage on mobile view (600*1000)" />
+    <MESSAGE value="Mobile emulation using executeCdpMethod" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mobile emulation using executeCdpMethod" />
   </component>
 </project>
