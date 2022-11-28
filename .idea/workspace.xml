@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8765ae5b-c337-4e10-8e41-2c8c556a8480" name="Changes" comment="Logging only the errors">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FailingRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NetworkMocking.java" afterDir="false" />
+    <list default="true" id="8765ae5b-c337-4e10-8e41-2c8c556a8480" name="Changes" comment="Failing requests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BlockNetworkRequests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NetworkLogsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NetworkLogsActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669525043289</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Failing requests">
+      <created>1669608340842</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669608340842</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +111,7 @@
     <MESSAGE value="Changing the geo location" />
     <MESSAGE value="Network logs for all responses" />
     <MESSAGE value="Logging only the errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logging only the errors" />
+    <MESSAGE value="Failing requests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Failing requests" />
   </component>
 </project>
