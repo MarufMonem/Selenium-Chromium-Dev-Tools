@@ -21,13 +21,16 @@ public class NetworkLogsActivity {
 
         devTools.addListener(Network.requestWillBeSent(), request -> {
             Request req = request.getRequest();
-            System.out.println("Sent: " + req.getUrl());
+//            System.out.println("Sent: " + req.getUrl());
         });
 
 //        we need to wait for the browser to receieve the response
         devTools.addListener(Network.responseReceived(), response -> {
             Response res = response.getResponse();
-            System.out.println("Response: " + res.getUrl() + " - " + res.getStatus());
+            if(res.getStatus().toString().startsWith("4")){
+                System.out.println("Response Failing: " + res.getUrl() + " - " + res.getStatus());
+            }
+
         });
 
 //        request events
